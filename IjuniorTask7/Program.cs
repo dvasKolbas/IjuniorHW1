@@ -11,7 +11,8 @@ namespace IjuniorTask7
         static void Main(string[] args)
         {
             int price = 3;
-            int wallet, numberCrystals;
+            int wallet;
+            int numberCrystals;
 
             Console.WriteLine("Сколько золота в кошельке?");
             wallet = Convert.ToInt32(Console.ReadLine());

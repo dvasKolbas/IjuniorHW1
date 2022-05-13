@@ -12,9 +12,12 @@ namespace IjuniorTask6
         {
             int pictureInRow = 3;
             int numberPicture = 52;
+            int maxRow = numberPicture / pictureInRow;
+            int remainderPictures = numberPicture % pictureInRow;
+
 
             Console.WriteLine("Целых рядов: {0}\n" +
-                              "Сверх меры: {1}", numberPicture / pictureInRow, numberPicture % pictureInRow);
+                              "Сверх меры: {1}", maxRow, remainderPictures);
         }
     }
 }
